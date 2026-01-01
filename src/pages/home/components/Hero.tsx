@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import Inspiration from '@/assets/inspiration.svg?react';
+import Inspirasi from '@/assets/inspirasi.svg?react';
 import Foundation from '@/assets/foundation.svg?react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -40,13 +40,13 @@ function Hero() {
       });
     };
 
-    const inspirationSvg = container.querySelector<SVGSVGElement>('#inspiration svg');
+    const inspirasiSvg = container.querySelector<SVGSVGElement>('#inspirasi svg');
     const foundationSvg = container.querySelector<SVGSVGElement>('#foundation svg');
 
-    const inspirationPaths = getSortedPaths(inspirationSvg);
+    const inspirasiPaths = getSortedPaths(inspirasiSvg);
     const foundationPaths = getSortedPaths(foundationSvg);
 
-    const allPaths = [...inspirationPaths, ...foundationPaths];
+    const allPaths = [...inspirasiPaths, ...foundationPaths];
     if (allPaths.length === 0) return;
 
     allPaths.forEach((path) => {
@@ -73,7 +73,7 @@ function Hero() {
 
     tl.set(allPaths, { strokeOpacity: 1 }, 0)
       .to(
-        inspirationPaths,
+        inspirasiPaths,
         {
           strokeDashoffset: 0,
           duration: 2,
@@ -150,8 +150,6 @@ function Hero() {
         el.addEventListener('mouseleave', onLeave);
 
         return () => {
-          el.removeEventListener('mouseenter', onEnter);
-          el.removeEventListener('mouseleave', onLeave);
           gsap.killTweensOf(el);
         };
       };
@@ -347,11 +345,11 @@ function Hero() {
         className="pointer-events-none absolute inset-0 z-20 flex flex-col items-center justify-center gap-6"
       >
         <div ref={textHeaderRef} className="flex flex-col lg:flex-row gap-4">
-          <div id="inspiration">
-            <Inspiration className="text-background h-32 w-full" />
+          <div id="inspirasi">
+            <Inspirasi className="text-background block h-32 w-full overflow-visible" />
           </div>
           <div id="foundation">
-            <Foundation className="text-background h-32 w-full" />
+            <Foundation className="text-background block h-32 w-full overflow-visible" />
           </div>
         </div>
         <div ref={subTextHeaderRef}>
