@@ -6,7 +6,6 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
 import { cn } from '@/lib/utils';
 
@@ -32,32 +31,70 @@ function Navbar() {
   return (
     <div
       className={cn(
-        'fixed inset-x-0 top-0 z-50 w-full bg-background/50 transition-all duration-200',
+        'fixed inset-x-0 top-0 z-50 w-full bg-background transition-all duration-200',
         isHome ? (scrolled ? 'backdrop:blur-2xl' : 'bg-transparent') : 'translate-y-0 opacity-100'
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 ">
-        <div className="font-semibold">Inspirasi Foundation</div>
+      <div
+        className={cn(
+          'mx-auto flex items-center justify-between py-3 transition-all ease-out duration-300',
+          isHome ? (scrolled ? 'px-3 max-w-6xl' : 'max-w-full px-10') : 'px-3 max-w-6xl'
+        )}
+      >
+        <a href="/" onClick={handleNavigate('/')}>
+          <div className={cn('w-auto shrink-0', isHome ? (scrolled ? 'h-12' : 'h-8') : 'h-8')}>
+            <img className="h-full w-full object-contain" src="/logo-full.png" alt="Logo" />
+          </div>
+        </a>
+
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink
-                href="/"
-                onClick={handleNavigate('/')}
-                data-active={pathname === '/'}
-                className={navigationMenuTriggerStyle()}
+                href="/profile"
+                onClick={handleNavigate('/profile')}
+                className={cn(
+                  'hover:bg-transparent hover:text-chart-1 focus:bg-transparent text-sm',
+                  isHome ? (scrolled ? 'text-primary text-lg' : 'text-background') : 'text-primary text-lg'
+                )}
               >
-                Home
+                Profil
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink
-                href="/example"
-                onClick={handleNavigate('/example')}
-                data-active={pathname === '/example'}
-                className={navigationMenuTriggerStyle()}
+                href="/program"
+                onClick={handleNavigate('/program')}
+                className={cn(
+                  'hover:bg-transparent hover:text-chart-1 focus:bg-transparent text-sm',
+                  isHome ? (scrolled ? 'text-primary text-lg' : 'text-background') : 'text-primary text-lg'
+                )}
               >
-                Example
+                Program
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                href="/inspiration"
+                onClick={handleNavigate('/inspiration')}
+                className={cn(
+                  'hover:bg-transparent hover:text-chart-1 focus:bg-transparent text-sm',
+                  isHome ? (scrolled ? 'text-primary text-lg' : 'text-background') : 'text-primary text-lg'
+                )}
+              >
+                Cerita Inspirasi
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                href="/reference"
+                onClick={handleNavigate('/reference')}
+                className={cn(
+                  'hover:bg-transparent hover:text-chart-1 focus:bg-transparent text-sm',
+                  isHome ? (scrolled ? 'text-primary text-lg' : 'text-background') : 'text-primary text-lg'
+                )}
+              >
+                Referensi
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>

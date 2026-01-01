@@ -290,7 +290,7 @@ function Hero() {
         />
       ))}
 
-      <div className="absolute inset-0 z-0 bg-black/50"></div>
+      <div className="absolute inset-0 z-0 bg-linear-to-t from-black/45 to-black/85"></div>
 
       <div ref={imageGalleryRef} className="absolute inset-0 z-10 hidden lg:block">
         {/* Kiri Atas */}
