@@ -67,7 +67,7 @@ function Hero() {
       scrollTrigger: {
         trigger: container,
         start: 'top 75%',
-        toggleActions: 'play none none none',
+        toggleActions: 'play pause resume none',
       },
     });
 
@@ -112,6 +112,11 @@ function Hero() {
       x: -100,
       duration: 1.5,
       ease: 'elastic.out',
+      scrollTrigger: {
+        trigger: subText,
+        start: 'top 80%',
+        toggleActions: 'play pause resume none',
+      },
     });
   });
 
@@ -167,7 +172,7 @@ function Hero() {
         scrollTrigger: {
           trigger: gallery,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          toggleActions: 'play pause resume none',
         },
       });
 
@@ -186,7 +191,7 @@ function Hero() {
         scrollTrigger: {
           trigger: gallery,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          toggleActions: 'play pause resume none',
         },
       });
 
@@ -205,7 +210,7 @@ function Hero() {
         scrollTrigger: {
           trigger: gallery,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          toggleActions: 'play pause resume none',
         },
       });
 
@@ -224,7 +229,7 @@ function Hero() {
         scrollTrigger: {
           trigger: gallery,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          toggleActions: 'play pause resume none',
         },
       });
 
@@ -242,7 +247,7 @@ function Hero() {
         scrollTrigger: {
           trigger: gallery,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          toggleActions: 'play pause resume none',
         },
       });
 
@@ -261,7 +266,7 @@ function Hero() {
         scrollTrigger: {
           trigger: gallery,
           start: 'top 80%',
-          toggleActions: 'play none none none',
+          toggleActions: 'play pause resume none',
         },
       });
 

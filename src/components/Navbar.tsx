@@ -32,12 +32,8 @@ function Navbar() {
   return (
     <div
       className={cn(
-        'fixed inset-x-0 top-0 z-50 w-full border-b bg-background/80 backdrop-blur transition-all duration-200',
-        isHome
-          ? scrolled
-            ? 'translate-y-0 opacity-100'
-            : '-translate-y-full opacity-0 pointer-events-none'
-          : 'translate-y-0 opacity-100'
+        'fixed inset-x-0 top-0 z-50 w-full bg-background/50 transition-all duration-200',
+        isHome ? (scrolled ? 'backdrop:blur-2xl' : 'bg-transparent') : 'translate-y-0 opacity-100'
       )}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 ">
