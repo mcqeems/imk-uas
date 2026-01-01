@@ -4,7 +4,6 @@ function Home() {
   return (
     <>
       <Hero />
-      <div className="h-[1500px]"></div>
     </>
   );
 }
