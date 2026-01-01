@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 export default function Layout() {
   return (
     <div className="min-h-dvh">
-      <header className="border-b">
+      <header>
         <Navbar />
       </header>
       <main>
