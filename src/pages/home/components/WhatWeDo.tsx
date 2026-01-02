@@ -4,6 +4,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,6 +22,7 @@ const features: Feature[] = [
 
 export default function WhatWeDo() {
   const sectionRef = useRef<HTMLElement | null>(null);
+  const navigate = useNavigate();
 
   useGSAP(
     () => {
@@ -123,6 +126,15 @@ export default function WhatWeDo() {
                 </div>
               );
             })}
+            <Button
+              className="max-w-full w-[50%] py-5 mr-2 font-bold cursor-pointer"
+              onClick={(event) => {
+                event.preventDefault();
+                navigate('/program');
+              }}
+            >
+              Pelajari Lebih Lanjut
+            </Button>
           </div>
         </div>
 
