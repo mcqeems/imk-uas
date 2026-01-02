@@ -1,10 +1,13 @@
 import Hero from './components/Hero';
+import WhatWeDo from './components/WhatWeDo';
+import InspiringStories from './components/InspiringStories';
 
 function Home() {
   return (
     <>
       <Hero />
-      <div className="h-[1500px]"></div>
+      <WhatWeDo />
+      <InspiringStories />
     </>
   );
 }
