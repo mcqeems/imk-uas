@@ -346,14 +346,16 @@ function Hero() {
       >
         <div ref={textHeaderRef} className="flex flex-col lg:flex-row gap-4">
           <div id="inspirasi">
-            <Inspirasi className="text-background block h-32 w-full overflow-visible" />
+            <Inspirasi className="text-background block lg:h-32 h-24 w-full overflow-visible" />
           </div>
           <div id="foundation">
-            <Foundation className="text-background block h-32 w-full overflow-visible" />
+            <Foundation className="text-background block lg:h-32 h-24 w-full overflow-visible" />
           </div>
         </div>
         <div ref={subTextHeaderRef}>
-          <p className="text-background font-bold text-lg">Solusi Kepemimpinan Sekolah yang Inovatif dan Berdampak.</p>
+          <p className="text-background font-bold md:text-lg text-base text-center">
+            Solusi Kepemimpinan Sekolah yang Inovatif dan Berdampak.
+          </p>
         </div>
       </div>
     </div>
