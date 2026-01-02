@@ -162,7 +162,7 @@ export default function InspiringStories() {
               className="py-5 font-bold cursor-pointer"
               onClick={(event) => {
                 event.preventDefault();
-                navigate('/inspiration');
+                navigate('/cerita-inspirasi');
               }}
             >
               Cari Lebih Lanjut

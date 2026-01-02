@@ -24,7 +24,7 @@ function Navbar() {
   const menuList: MenuList[] = [
     {
       name: 'Profil',
-      link: '/profile',
+      link: '/profil',
     },
     {
       name: 'Program',
@@ -32,11 +32,11 @@ function Navbar() {
     },
     {
       name: 'Cerita Inspirasi',
-      link: 'inspiration',
+      link: 'cerita-inspirasi',
     },
     {
-      name: 'Referensi',
-      link: '/reference',
+      name: 'Mitra',
+      link: '/mitra',
     },
   ];
 
