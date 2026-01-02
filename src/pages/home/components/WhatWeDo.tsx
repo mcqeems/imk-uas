@@ -128,7 +128,7 @@ export default function WhatWeDo() {
             })}
             <Button
               data-wwd-item
-              className="max-w-full w-[50%] py-5 mr-2 font-bold cursor-pointer"
+              className="max-w-full w-full lg:w-[50%] py-5 mr-2 font-bold cursor-pointer"
               onClick={(event) => {
                 event.preventDefault();
                 navigate('/program');
@@ -139,7 +139,7 @@ export default function WhatWeDo() {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-xl">
+        <div className="relative mx-auto w-full max-w-xl hidden lg:block">
           <div className="relative aspect-4/3 w-full">
             <img
               data-wwd-image
