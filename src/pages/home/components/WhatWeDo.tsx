@@ -127,6 +127,7 @@ export default function WhatWeDo() {
               );
             })}
             <Button
+              data-wwd-item
               className="max-w-full w-[50%] py-5 mr-2 font-bold cursor-pointer"
               onClick={(event) => {
                 event.preventDefault();

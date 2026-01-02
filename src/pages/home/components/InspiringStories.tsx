@@ -3,6 +3,8 @@ import { CalendarDays } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import { useNavigate } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,6 +69,7 @@ function StoryRow({ story, side }: { story: Story; side: 'left' | 'right' }) {
 
 export default function InspiringStories() {
   const sectionRef = useRef<HTMLElement | null>(null);
+  const navigate = useNavigate();
 
   useGSAP(
     () => {
@@ -82,7 +85,13 @@ export default function InspiringStories() {
         },
       });
 
-      tl.fromTo('[data-stories-kicker]', { autoAlpha: 0, y: 10 }, { autoAlpha: 1, y: 0, duration: 0.45 })
+      tl.fromTo(
+        '[data-stories-skew]',
+        { autoAlpha: 0, y: 64, scaleY: 0.92, transformOrigin: 'top left' },
+        { autoAlpha: 1, y: 0, scaleY: 1, duration: 0.85, ease: 'power3.out' },
+        0
+      )
+        .fromTo('[data-stories-kicker]', { autoAlpha: 0, y: 10 }, { autoAlpha: 1, y: 0, duration: 0.45 }, 0.15)
         .fromTo('[data-stories-title]', { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.65 }, '-=0.15')
         .fromTo(
           '[data-stories-card]',
@@ -91,7 +100,7 @@ export default function InspiringStories() {
           '-=0.2'
         );
 
-      const rows = gsap.utils.toArray<HTMLElement>('[data-story-row]');
+      const rows = Array.from(section.querySelectorAll<HTMLElement>('[data-story-row]'));
       rows.forEach((row, index) => {
         const side = row.dataset.storySide;
         tl.fromTo(
@@ -101,6 +110,13 @@ export default function InspiringStories() {
           index === 0 ? '-=0.35' : '-=0.4'
         );
       });
+
+      tl.fromTo(
+        '[data-stories-button]',
+        { autoAlpha: 0, y: 14, scale: 0.985 },
+        { autoAlpha: 1, y: 0, scale: 1, duration: 0.55, ease: 'power3.out' },
+        '>-0.15'
+      );
     },
     { scope: sectionRef }
   );
@@ -140,10 +156,22 @@ export default function InspiringStories() {
               </div>
             </div>
           </div>
-
+          <div className="flex justify-center items-center mt-5">
+            <Button
+              data-stories-button
+              className="py-5 font-bold cursor-pointer"
+              onClick={(event) => {
+                event.preventDefault();
+                navigate('/inspiration');
+              }}
+            >
+              Cari Lebih Lanjut
+            </Button>
+          </div>
           <div
+            data-stories-skew
             aria-hidden="true"
-            className="absolute -bottom-24 left-1/2 -z-10 h-full w-[120%] -translate-x-1/2 bg-primary origin-top-left -skew-y-3"
+            className="absolute -bottom-24 left-1/2 -z-10 h-full w-[120%] -translate-x-1/2 bg-chart-1/50 origin-top-left -skew-y-3"
           />
         </div>
       </div>
