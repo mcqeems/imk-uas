@@ -171,7 +171,7 @@ export default function InspiringStories() {
           <div
             data-stories-skew
             aria-hidden="true"
-            className="absolute -bottom-24 left-1/2 -z-10 h-full w-[120%] -translate-x-1/2 bg-chart-1/50 origin-top-left -skew-y-3"
+            className="absolute bottom-0 left-1/2 -z-10 h-full w-[120%] -translate-x-1/2 bg-chart-1/50 origin-top-left -skew-3 hidden lg:block"
           />
         </div>
       </div>
