@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import WhatWeDo from './components/WhatWeDo';
 import InspiringStories from './components/InspiringStories';
 import Testimonials from './components/Testimonials';
+import Mitra from './components/Mitra';
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <WhatWeDo />
       <InspiringStories />
       <Testimonials />
+      <Mitra />
     </>
   );
 }

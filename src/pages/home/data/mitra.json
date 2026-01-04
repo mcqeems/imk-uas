@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
+    "description": "Direktorat Jenderal Guru dan Tenaga Kependidikan (Ditjen GTK) Kemendikbudristek.",
+    "type": "Mitra Pemerintah",
+    "image": "1_mitra.png"
+  },
+  {
+    "name": "Kementerian Agama Republik Indonesia",
+    "description": "Direktorat Jenderal Pendidikan Islam (Pendis) Kementerian Agama.",
+    "type": "Mitra Pemerintah",
+    "image": "2_mitra.png"
+  },
+  {
+    "name": "Tanoto Foundation",
+    "description": "Organisasi filantropi independen yang berfokus pada pendidikan dan pengembangan sumber daya manusia.",
+    "type": "Mitra Korporasi",
+    "image": "3_mitra.png"
+  },
+  {
+    "name": "Djarum Foundation",
+    "description": "Program Djarum Beasiswa Plus berfokus pada pengembangan karakter dan kepemimpinan.",
+    "type": "Mitra Korporasi",
+    "image": "4_mitra.png"
+  },
+  {
+    "name": "BMJ",
+    "description": "Penyedia pengetahuan kesehatan global yang mendukung riset dan pendidikan medis.",
+    "type": "Mitra Korporasi",
+    "image": "5_mitra.png"
+  },
+  {
+    "name": "Bakti Nusa",
+    "description": "Program pengembangan kepemimpinan bagi aktivis mahasiswa di perguruan tinggi negeri.",
+    "type": "Mitra Korporasi",
+    "image": "6_mitra.png"
+  },
+  {
+    "name": "Indika Foundation",
+    "description": "Yayasan yang berfokus pada pendidikan karakter, toleransi, dan perdamaian.",
+    "type": "Mitra Korporasi",
+    "image": "7_mitra.png"
+  },
+  {
+    "name": "Daya Dimensi Indonesia",
+    "description": "Konsultan SDM strategis yang berfokus pada asesmen dan pengembangan kepemimpinan.",
+    "type": "Mitra Korporasi",
+    "image": "8_mitra.png"
+  },
+  {
+    "name": "Paragon Corp",
+    "description": "Perusahaan kosmetik nasional yang mendukung pendidikan melalui program CSR.",
+    "type": "Mitra Korporasi",
+    "image": "9_mitra.png"
+  },
+  {
+    "name": "Reachout Foundation",
+    "description": "Yayasan yang fokus pada peningkatan kualitas pendidikan di daerah terpencil.",
+    "type": "Mitra Korporasi",
+    "image": "10_mitra.png"
+  },
+  {
+    "name": "Quantum HRM Internasional",
+    "description": "Lembaga sertifikasi profesi dan konsultan manajemen sumber daya manusia.",
+    "type": "Mitra Korporasi",
+    "image": "11_mitra.png"
+  },
+  {
+    "name": "UBS",
+    "description": "UBS Optimus Foundation berfokus pada kesehatan, pendidikan, dan perlindungan anak.",
+    "type": "Mitra Korporasi",
+    "image": "12_mitra.png"
+  },
+  {
+    "name": "Orbit Future Academy",
+    "description": "Lembaga pendidikan yang berfokus pada peningkatan keterampilan digital dan masa depan.",
+    "type": "Mitra Korporasi",
+    "image": "13_mitra.png"
+  },
+  {
+    "name": "BUMA",
+    "description": "PT Bukit Makmur Mandiri Utama, kontraktor pertambangan batubara terkemuka.",
+    "type": "Mitra Korporasi",
+    "image": "14_mitra.png"
+  },
+  {
+    "name": "Adaro Foundation",
+    "description": "Yayasan Adaro Bangun Negeri yang fokus pada peningkatan kualitas hidup masyarakat.",
+    "type": "Mitra Korporasi",
+    "image": "15_mitra.png"
+  },
+  {
+    "name": "Boeing",
+    "description": "Perusahaan dirgantara global yang mendukung pendidikan STEM dan pengembangan komunitas.",
+    "type": "Mitra Korporasi",
+    "image": "16_mitra.png"
+  },
+  {
+    "name": "UNICEF",
+    "description": "Organisasi PBB yang memberikan bantuan kemanusiaan dan perkembangan kesejahteraan anak.",
+    "type": "Mitra Korporasi",
+    "image": "17_mitra.png"
+  },
+  {
+    "name": "Danone Indonesia",
+    "description": "Perusahaan multinasional yang memproduksi makanan dan minuman kesehatan.",
+    "type": "Mitra Korporasi",
+    "image": "18_mitra.png"
+  },
+  {
+    "name": "Google for Education",
+    "description": "Layanan dan alat digital dari Google untuk mendukung pembelajaran dan pendidikan.",
+    "type": "Mitra Internasional",
+    "image": "19_mitra.png"
+  },
+  {
+    "name": "Matific",
+    "description": "Platform matematika digital untuk siswa SD yang membangun pemahaman konseptual.",
+    "type": "Mitra Internasional",
+    "image": "20_mitra.png"
+  },
+  {
+    "name": "Alef Education",
+    "description": "Penyedia solusi pendidikan berbasis teknologi AI untuk personalisasi pembelajaran.",
+    "type": "Mitra Internasional",
+    "image": "21_mitra.png"
+  },
+  {
+    "name": "Lisa Spark",
+    "description": "Program literasi sosial dan akademik untuk meningkatkan kualitas pendidikan.",
+    "type": "Mitra Internasional",
+    "image": "22_mitra.png"
+  },
+  {
+    "name": "Canva for Education",
+    "description": "Alat desain grafis online yang memudahkan pembuatan materi visual pembelajaran.",
+    "type": "Mitra Internasional",
+    "image": "23_mitra.png"
+  },
+  {
+    "name": "PSPK",
+    "description": "Pusat Studi Pendidikan dan Kebijakan, yayasan riset dan advokasi kebijakan.",
+    "type": "Mitra Pusat Studi dan Asosiasi",
+    "image": "24_mitra.png"
+  },
+  {
+    "name": "Lembaga Demografi FEB UI",
+    "description": "Lembaga penelitian yang berfokus pada isu kependudukan dan sumber daya manusia.",
+    "type": "Mitra Pusat Studi dan Asosiasi",
+    "image": "25_mitra.png"
+  },
+  {
+    "name": "SMERU Research Institute",
+    "description": "Lembaga penelitian independen yang berfokus pada kebijakan publik dan isu sosial ekonomi.",
+    "type": "Mitra Pusat Studi dan Asosiasi",
+    "image": "26_mitra.png"
+  },
+  {
+    "name": "LPT UI",
+    "description": "Lembaga Psikologi Terapan Universitas Indonesia, pusat layanan psikologi terkemuka.",
+    "type": "Mitra Pusat Studi dan Asosiasi",
+    "image": "27_mitra.png"
+  },
+  {
+    "name": "APKASI",
+    "description": "Asosiasi Pemerintah Kabupaten Seluruh Indonesia yang mewadahi kerjasama antar daerah.",
+    "type": "Mitra Pusat Studi dan Asosiasi",
+    "image": "28_mitra.png"
+  },
+  {
+    "name": "Manual",
+    "description": "Lembaga pengembangan kesehatan mental dan gaya hidup sehat bagi remaja.",
+    "type": "Mitra Pusat Studi dan Asosiasi",
+    "image": "29_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Provinsi DKI Jakarta",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di wilayah DKI Jakarta.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "30_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Provinsi Jawa Barat",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di wilayah Jawa Barat.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "31_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Provinsi Jawa Tengah",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di wilayah Jawa Tengah.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "32_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Kabupaten Pasuruan",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di Kabupaten Pasuruan.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "33_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Kabupaten Deli Serdang",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di Kabupaten Deli Serdang.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "34_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Kabupaten Garut",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di Kabupaten Garut.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "35_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Kota Surabaya",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di Kota Surabaya.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "36_mitra.png"
+  },
+  {
+    "name": "Dinas Pendidikan Kabupaten Banyuwangi",
+    "description": "Lembaga pemerintah daerah yang mengelola pendidikan di Kabupaten Banyuwangi.",
+    "type": "Mitra Pemerintah Daerah",
+    "image": "37_mitra.png"
+  },
+  {
+    "name": "BAZNAS",
+    "description": "Badan Amil Zakat Nasional, lembaga pengelola zakat resmi pemerintah.",
+    "type": "Mitra Filantropi",
+    "image": "38_mitra.png"
+  },
+  {
+    "name": "Dompet Dhuafa",
+    "description": "Lembaga nirlaba yang berkhidmat mengangkat harkat sosial kemanusiaan kaum dhuafa.",
+    "type": "Mitra Filantropi",
+    "image": "39_mitra.png"
+  }
+]

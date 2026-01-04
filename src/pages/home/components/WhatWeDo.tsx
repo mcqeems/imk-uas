@@ -143,7 +143,7 @@ export default function WhatWeDo() {
           <div className="relative aspect-4/3 w-full">
             <img
               data-wwd-image
-              src="/activities/5.png"
+              src="/activities/7.jpg"
               alt="Kegiatan Inspirasi"
               className="absolute right-0 top-0 h-[78%] w-[78%] rounded-xl object-cover ring-1 ring-border shadow-lg"
               loading="lazy"
@@ -151,7 +151,7 @@ export default function WhatWeDo() {
 
             <img
               data-wwd-image
-              src="/activities/6.jpg"
+              src="/activities/8.jpg"
               alt="Kegiatan sekolah"
               className="absolute bottom-0 left-0 h-[44%] w-[58%] rounded-xl object-cover ring-1 ring-border shadow-lg"
               loading="lazy"
@@ -159,7 +159,7 @@ export default function WhatWeDo() {
 
             <img
               data-wwd-image
-              src="/activities/2.png"
+              src="/activities/9.jpg"
               alt="Pelatihan dan kolaborasi"
               className="absolute bottom-[-10%] right-[35%] h-16 w-16 rounded-lg object-cover ring-1 ring-border shadow-md sm:h-20 sm:w-20"
               loading="lazy"

@@ -16,20 +16,20 @@ const testimonials: Testimonial[] = [
     role: 'Mitra Guru',
     quote:
       'Sangat bermanfaat karena bisa menambah pengetahuan kita dan menumbuhkan minat anak dalam baca tulis yang menyenangkan.',
-    avatar: '/activities/3.png',
+    avatar: '/teacher/1.jpg',
   },
   {
     name: 'Siti Atikah Trisnawati',
     role: 'Mitra Kepala Sekolah',
     quote:
       'Saya belajar dari cara tim INSPIRASI memfasilitasi workshop tersebut, seperti memberi kesempatan setiap peserta berpendapat, dan juga menggunakan metode partisipatif saat diskusi.',
-    avatar: '/activities/5.png',
+    avatar: '/teacher/3.jpg',
   },
   {
-    name: 'Nur Aisyah',
+    name: 'Akbar Alamsyah',
     role: 'Mitra Guru',
     quote: 'Pendekatan pembelajaran terasa lebih terarah, praktis, dan mudah diterapkan di sekolah.',
-    avatar: '/activities/2.png',
+    avatar: '/teacher/2.jpg',
   },
 ];
 

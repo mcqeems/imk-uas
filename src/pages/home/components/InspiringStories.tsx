@@ -126,7 +126,7 @@ export default function InspiringStories() {
       <div
         aria-hidden="true"
         className="absolute inset-0 -z-10 bg-cover bg-center"
-        style={{ backgroundImage: 'url(/activities/6.jpg)' }}
+        style={{ backgroundImage: 'url(/activities/10.jpg)' }}
       />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-black/55" />
 
