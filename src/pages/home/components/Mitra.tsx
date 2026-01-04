@@ -17,8 +17,8 @@ function Mitra() {
       <div className="grid grid-cols-3 w-full max-w-6xl gap-8 mt-4">
         {mitras.slice(0, 9).map((mitra) => {
           return (
-            <div className="flex flex-col items-center min-h-[200px] justify-between border border-border rounded-lg p-8">
-              <img height={300} width={300} className="object-contain" src={`/public/mitra/${mitra.image}`} />
+            <div className="flex flex-col items-center min-h-50 justify-between border border-border rounded-lg p-8">
+              <img height={300} width={300} className="object-contain" src={`/mitra/${mitra.image}`} />
               <p className="text-center text-sm">{mitra.description}</p>
             </div>
           );
