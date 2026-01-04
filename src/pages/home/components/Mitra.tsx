@@ -64,7 +64,7 @@ function Mitra() {
     { scope: mitraRef }
   );
   return (
-    <section ref={mitraRef} className="flex flex-col justify-center items-center w-full px-2 py-4 gap-2">
+    <section ref={mitraRef} className="flex flex-col justify-center items-center w-full px-2 py-4 gap-4">
       <div className="max-w-full w-full">
         <h2 data-mitra-title className="text-3xl font-bold text-center">
           Mitra Inspirasi
@@ -86,7 +86,7 @@ function Mitra() {
       </div>
       <Button
         data-mitra-item
-        className="p-4 font-bold"
+        className="px-6 py-5 font-bold"
         size="lg"
         onClick={() => {
           navigate('/mitra');

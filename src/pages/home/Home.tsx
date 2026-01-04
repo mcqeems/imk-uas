@@ -6,13 +6,13 @@ import Mitra from './components/Mitra';
 
 function Home() {
   return (
-    <>
+    <div className="space-y-5">
       <Hero />
       <WhatWeDo />
       <InspiringStories />
       <Testimonials />
       <Mitra />
-    </>
+    </div>
   );
 }
 
