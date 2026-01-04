@@ -86,7 +86,7 @@ function Mitra() {
       </div>
       <Button
         data-mitra-item
-        className="px-6 py-5 font-bold"
+        className="px-6 py-5 font-bold cursor-pointer"
         size="lg"
         onClick={() => {
           navigate('/mitra');
