@@ -41,11 +41,15 @@ const rightStories: Story[] = [
 ];
 
 function StoryRow({ story, side }: { story: Story; side: 'left' | 'right' }) {
+  const navigate = useNavigate();
   return (
     <div
       data-story-row
       data-story-side={side}
-      className="flex gap-4 rounded-xl p-4 transition-colors hover:bg-muted/30"
+      className="flex gap-4 rounded-xl p-4 cursor-pointer"
+      onClick={() => {
+        navigate('/development');
+      }}
     >
       <img
         src={story.image}
@@ -59,7 +63,7 @@ function StoryRow({ story, side }: { story: Story; side: 'left' | 'right' }) {
           <CalendarDays className="size-3.5" aria-hidden="true" />
           <span>{story.date}</span>
         </div>
-        <div className="text-foreground mt-1 line-clamp-3 text-sm font-semibold leading-snug sm:text-base">
+        <div className="text-foreground hover:text-primary transition-colors mt-1 line-clamp-3 text-sm font-semibold leading-snug sm:text-base">
           {story.title}
         </div>
       </div>
