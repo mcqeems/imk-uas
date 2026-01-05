@@ -262,8 +262,6 @@ function Program() {
           </div>
         </section>
 
-        <Separator />
-
         {/* Penelitian & Uji Coba */}
         <section className="p-6 rounded-lg bg-chart-1/50">
           <div className="text-center mb-12">
@@ -293,8 +291,6 @@ function Program() {
             ))}
           </div>
         </section>
-
-        <Separator />
       </div>
     </div>
   );
