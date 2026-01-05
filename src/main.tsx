@@ -9,11 +9,14 @@ import Profil from '@/pages/profil/Profil';
 import CeritaInspirasi from '@/pages/cerita-inspirasi/CeritaInspirasi';
 import Mitra from '@/pages/mitra/Mitra';
 import Program from '@/pages/program/Program';
+import Development from '@/pages/development/Development';
+import NotFound from './pages/not-found/NotFound';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
+    errorElement: <NotFound />,
     children: [
       {
         index: true,
@@ -36,6 +39,10 @@ const router = createBrowserRouter([
         element: <Program />,
       },
     ],
+  },
+  {
+    path: '/development',
+    element: <Development />,
   },
 ]);
 
