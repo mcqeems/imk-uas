@@ -6,7 +6,7 @@ import { Separator } from '@/components/ui/separator';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import { Compass, Quote, School, Sparkles, Trophy } from 'lucide-react';
+import { Compass, Quote, Sparkles } from 'lucide-react';
 import InspirasiMark from '@/assets/inspirasi.svg?react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -127,9 +127,10 @@ function Profil() {
       <section className="mx-auto w-full max-w-7xl px-4">
         <div data-animate="fade-up" className="space-y-4">
           <div className="flex items-center gap-2">
-            <School className="size-6 text-primary" />
             <h2 className="text-3xl font-bold tracking-tight">Mengapa Kepala Sekolah?</h2>
           </div>
+          <div className="h-1 w-20 bg-primary rounded-full mb-6" />
+
           <p className="text-base text-muted-foreground md:text-lg">
             Mayoritas kepala sekolah di Indonesia belum menguasai keterampilan yang diperlukan untuk menjalankan
             perannya sebagai pemimpin pembelajaran. Karena itu, INSPIRASI berfokus pada kepemimpinan sekolah sebagai
@@ -196,9 +197,10 @@ function Profil() {
       <section className="mx-auto w-full max-w-7xl px-4">
         <div data-animate="fade-up" className="space-y-2">
           <div className="flex items-center gap-2">
-            <Sparkles className="size-6 text-primary" />
             <h2 className="text-3xl font-bold tracking-tight">Visi, Misi & Nilai</h2>
           </div>
+          <div className="h-1 w-20 bg-primary rounded-full mb-6" />
+
           <p className="text-base text-muted-foreground md:text-lg">
             Fokus kami adalah meningkatkan kualitas kepemimpinan sekolah untuk berdampak pada pembelajaran siswa.
           </p>
@@ -256,9 +258,10 @@ function Profil() {
       <section className="mx-auto w-full max-w-7xl px-4 pb-14 md:pb-16">
         <div data-animate="fade-up" className="space-y-2">
           <div className="flex items-center gap-2">
-            <Trophy className="size-6 text-primary" />
             <h2 className="text-3xl font-bold tracking-tight">Penghargaan</h2>
           </div>
+          <div className="h-1 w-20 bg-primary rounded-full mb-6" />
+
           <p className="text-base text-muted-foreground md:text-lg">
             INSPIRASI pernah mendapatkan beberapa penghargaan dari lembaga-lembaga, baik di dalam maupun luar negeri.
           </p>
