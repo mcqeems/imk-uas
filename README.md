@@ -2,7 +2,7 @@
 
 Website ini adalah aplikasi front-end untuk menampilkan profil, program, cerita inspiratif, dan daftar mitra dari INSPIRASI Foundation.
 
-## Dokumentasi Umum (Non-Teknis)
+## Dokumentasi Umum
 
 ### Gambaran Singkat
 
@@ -63,20 +63,39 @@ Prasyarat: Node.js versi LTS (disarankan 18+).
 
 ### Struktur Folder Penting
 
-- Entry dan routing: [src/main.tsx](src/main.tsx)
-- Layout global (Navbar, konten, Footer): [src/pages/layout/Layout.tsx](src/pages/layout/Layout.tsx)
-- Halaman:
-  - Beranda: [src/pages/home/Home.tsx](src/pages/home/Home.tsx) (section ada di [src/pages/home/components/](src/pages/home/components/))
-  - Profil: [src/pages/profil/Profil.tsx](src/pages/profil/Profil.tsx)
-  - Program: [src/pages/program/Program.tsx](src/pages/program/Program.tsx)
-  - Cerita: [src/pages/cerita-inspirasi/CeritaInspirasi.tsx](src/pages/cerita-inspirasi/CeritaInspirasi.tsx)
-  - Mitra: [src/pages/mitra/Mitra.tsx](src/pages/mitra/Mitra.tsx)
-  - Halaman pengembangan: [src/pages/development/Development.tsx](src/pages/development/Development.tsx)
-  - 404: [src/pages/not-found/NotFound.tsx](src/pages/not-found/NotFound.tsx)
-- Data mitra: [src/pages/home/data/mitra.json](src/pages/home/data/mitra.json)
-- Komponen umum: [src/components/Navbar.tsx](src/components/Navbar.tsx) dan [src/components/Footer.tsx](src/components/Footer.tsx)
-- UI components (shadcn/ui): [src/components/ui/](src/components/ui/)
-- Styling global dan token tema: [src/index.css](src/index.css)
+```text
+src/
+  main.tsx                          # entry + routing
+  index.css                         # styling global + theme tokens
+
+  components/
+    Navbar.tsx
+    Footer.tsx
+    ui/                             # komponen UI (shadcn/ui)
+
+  pages/
+    layout/
+      Layout.tsx                    # layout global (Navbar + Outlet + Footer)
+    home/
+      Home.tsx
+      components/                   # section beranda (Hero, WhatWeDo, dst.)
+      data/
+        mitra.json                  # sumber data mitra
+    profil/
+      Profil.tsx
+    program/
+      Program.tsx
+    cerita-inspirasi/
+      CeritaInspirasi.tsx
+    mitra/
+      Mitra.tsx
+    development/
+      Development.tsx               # placeholder halaman pengembangan
+    not-found/
+      NotFound.tsx                  # halaman 404
+
+public/                              # aset statis (activities, school, teacher, mitra, logo)
+```
 
 ### Routing (SPA)
 
