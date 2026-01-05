@@ -11,7 +11,13 @@ function Footer() {
   return (
     <footer className="relative overflow-hidden text-background mt-8">
       <div className="absolute inset-0 -z-10">
-        <img className="h-full w-full object-cover" src="/activities/13.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img
+          className="h-full w-full object-cover"
+          src="/activities/13.webp"
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+        />
         <div className="absolute inset-0 bg-foreground/90" aria-hidden="true" />
       </div>
       <div className="relative mx-auto w-full max-w-6xl px-4 py-10">

@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 function Hero() {
-  const images = ['/school/school_one.png', '/school/school_two.png', '/school/school_three.png'];
+  const images = ['/school/school_one.webp', '/school/school_two.webp', '/school/school_three.webp'];
   const [activeIndex, setActiveIndex] = useState(0);
   const textHeaderRef = useRef<HTMLDivElement | null>(null);
   const subTextHeaderRef = useRef<HTMLDivElement | null>(null);
@@ -295,14 +295,14 @@ function Hero() {
       <div ref={imageGalleryRef} className="absolute inset-0 z-10 hidden lg:block">
         {/* Kiri Atas */}
         <img
-          src="/activities/3.png"
+          src="/activities/3.webp"
           alt="activities_1"
           aria-hidden="true"
           id="image-gallery-1"
           className="absolute lg:left-24 lg:top-24 xl:left-40 xl:top-40 lg:h-48 lg:w-48 xl:h-64 xl:w-64 rounded-lg object-cover shadow-lg"
         />
         <img
-          src="/activities/2.png"
+          src="/activities/2.webp"
           alt="activities_2"
           aria-hidden="true"
           id="image-gallery-2"
@@ -310,14 +310,14 @@ function Hero() {
         />
         {/* Kiri Bawah */}
         <img
-          src="/activities/6.jpg"
+          src="/activities/6.webp"
           alt="activities_3"
           aria-hidden="true"
           id="image-gallery-3"
           className="absolute lg:bottom-24 lg:left-24 xl:bottom-46 xl:left-60 lg:h-56 lg:w-72 xl:h-76 xl:w-96 rounded-lg object-cover shadow-lg"
         />
         <img
-          src="/activities/4.png"
+          src="/activities/4.webp"
           alt="activities_4"
           aria-hidden="true"
           id="image-gallery-4"
@@ -325,14 +325,14 @@ function Hero() {
         />
         {/* Kanan */}
         <img
-          src="/activities/5.png"
+          src="/activities/5.webp"
           alt="activities_5"
           aria-hidden="true"
           id="image-gallery-5"
           className="absolute lg:right-16 lg:top-24 xl:right-36 xl:top-40 lg:h-80 lg:w-80 xl:h-115 xl:w-115 rounded-lg object-cover shadow-lg"
         />
         <img
-          src="/activities/1.png"
+          src="/activities/1.webp"
           alt="activities_6"
           aria-hidden="true"
           id="image-gallery-6"

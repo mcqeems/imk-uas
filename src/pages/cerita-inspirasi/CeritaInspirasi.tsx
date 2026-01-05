@@ -29,7 +29,7 @@ const stories: Story[] = [
     title: 'Menjadi Inklusi di Era Limitasi, Mungkinkah?',
     excerpt:
       'Tantangan dan peluang dalam mewujudkan pendidikan inklusif di tengah keterbatasan sumber daya dan situasi pandemi.',
-    image: '/activities/14.jpg',
+    image: '/activities/14.webp',
     category: 'Opini',
   },
   {
@@ -39,7 +39,7 @@ const stories: Story[] = [
     title: 'Pemimpin Menginspirasi #1 – Nunung Maryani',
     excerpt:
       'Kisah inspiratif Nunung Maryani dalam memimpin perubahan di sekolahnya dan memberikan dampak positif bagi siswa.',
-    image: '/activities/15.jpg',
+    image: '/activities/15.webp',
     category: 'Sosok',
   },
   {
@@ -49,7 +49,7 @@ const stories: Story[] = [
     title: 'Webinar FKP × INSPIRASI Foundation: Mendukung Perempuan sebagai Pemimpin',
     excerpt:
       'Diskusi mendalam mengenai peran penting perempuan dalam kepemimpinan pendidikan dan tantangan yang dihadapi.',
-    image: '/activities/16.jpg',
+    image: '/activities/16.webp',
     category: 'Event',
   },
   {
@@ -59,7 +59,7 @@ const stories: Story[] = [
     title: 'Tingkatkan Literasi dan Numerasi Siswa, INSPIRASI dan Pemkab Sumba Barat Daya',
     excerpt:
       'Kolaborasi strategis untuk meningkatkan kualitas literasi dan numerasi siswa di Sumba Barat Daya melalui program BERSAMA.',
-    image: '/activities/17.jpg',
+    image: '/activities/17.webp',
     category: 'Program',
   },
   {
@@ -68,7 +68,7 @@ const stories: Story[] = [
     comments: 2,
     title: 'Transformasi Pendidikan di Daerah 3T',
     excerpt: 'Upaya berkelanjutan dalam memeratakan kualitas pendidikan di daerah Terdepan, Terluar, dan Tertinggal.',
-    image: '/activities/18.jpg',
+    image: '/activities/18.webp',
     category: 'Liputan',
   },
   {
@@ -77,7 +77,7 @@ const stories: Story[] = [
     comments: 5,
     title: 'Peran Kepala Sekolah dalam Kurikulum Merdeka',
     excerpt: 'Bagaimana kepala sekolah menjadi kunci sukses implementasi Kurikulum Merdeka di satuan pendidikan.',
-    image: '/activities/19.jpg',
+    image: '/activities/19.webp',
     category: 'Edukasi',
   },
 ];
@@ -124,7 +124,7 @@ export default function CeritaInspirasi() {
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <img
-            src="/activities/10.jpg"
+            src="/activities/10.webp"
             alt=""
             aria-hidden="true"
             className="h-full w-full object-cover"

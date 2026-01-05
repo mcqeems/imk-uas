@@ -120,7 +120,7 @@ function Program() {
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <img
-            src="/activities/8.jpg"
+            src="/activities/8.webp"
             alt=""
             aria-hidden="true"
             className="h-full w-full object-cover"

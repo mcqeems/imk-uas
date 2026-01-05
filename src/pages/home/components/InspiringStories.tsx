@@ -18,12 +18,12 @@ const leftStories: Story[] = [
   {
     date: '25 July 2020',
     title: 'Menjadi Inklusi di Era Limitasi, Mungkinkah?',
-    image: '/activities/3.png',
+    image: '/activities/3.webp',
   },
   {
     date: '9 May 2020',
     title: 'Pemimpin Menginspirasi #1 – Nunung Maryani',
-    image: '/activities/6.jpg',
+    image: '/activities/6.webp',
   },
 ];
 
@@ -31,12 +31,12 @@ const rightStories: Story[] = [
   {
     date: '29 March 2023',
     title: 'Webinar FKP × INSPIRASI Foundation: Mendukung Perempuan sebagai Pemimpin dalam Pendidikan',
-    image: '/activities/2.png',
+    image: '/activities/2.webp',
   },
   {
     date: '20 February 2023',
     title: 'Tingkatkan Literasi dan Numerasi Siswa, INSPIRASI dan Pemkab Sumba Barat Daya Diseminaskan Program BERSAMA',
-    image: '/activities/5.png',
+    image: '/activities/5.webp',
   },
 ];
 
@@ -130,7 +130,7 @@ export default function InspiringStories() {
       <div
         aria-hidden="true"
         className="absolute inset-0 -z-10 bg-cover bg-center"
-        style={{ backgroundImage: 'url(/activities/10.jpg)' }}
+        style={{ backgroundImage: 'url(/activities/10.webp)' }}
       />
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-black/55" />
 

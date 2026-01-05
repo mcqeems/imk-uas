@@ -79,7 +79,7 @@ function Profil() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <img
-            src="/activities/12.jpg"
+            src="/activities/12.webp"
             alt=""
             aria-hidden="true"
             className="h-full w-full object-cover"
