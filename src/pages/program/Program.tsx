@@ -4,7 +4,6 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Separator } from '@/components/ui/separator';
 import { BookOpen, Lightbulb, Users, GraduationCap, Search, Share2, Building2, FileText, Quote } from 'lucide-react';
 import InspirasiMark from '@/assets/inspirasi.svg?react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
@@ -121,7 +120,7 @@ function Program() {
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <img
-            src="/activities/10.jpg"
+            src="/activities/8.jpg"
             alt=""
             aria-hidden="true"
             className="h-full w-full object-cover"
