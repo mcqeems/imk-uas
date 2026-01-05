@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { CalendarDays, MessageSquare, ArrowRight, Quote } from 'lucide-react';
 import InspirasiMark from '@/assets/inspirasi.svg?react';
+import { useNavigate } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -28,7 +29,7 @@ const stories: Story[] = [
     title: 'Menjadi Inklusi di Era Limitasi, Mungkinkah?',
     excerpt:
       'Tantangan dan peluang dalam mewujudkan pendidikan inklusif di tengah keterbatasan sumber daya dan situasi pandemi.',
-    image: '/activities/3.png',
+    image: '/activities/14.jpg',
     category: 'Opini',
   },
   {
@@ -38,7 +39,7 @@ const stories: Story[] = [
     title: 'Pemimpin Menginspirasi #1 – Nunung Maryani',
     excerpt:
       'Kisah inspiratif Nunung Maryani dalam memimpin perubahan di sekolahnya dan memberikan dampak positif bagi siswa.',
-    image: '/activities/6.jpg',
+    image: '/activities/15.jpg',
     category: 'Sosok',
   },
   {
@@ -48,7 +49,7 @@ const stories: Story[] = [
     title: 'Webinar FKP × INSPIRASI Foundation: Mendukung Perempuan sebagai Pemimpin',
     excerpt:
       'Diskusi mendalam mengenai peran penting perempuan dalam kepemimpinan pendidikan dan tantangan yang dihadapi.',
-    image: '/activities/2.png',
+    image: '/activities/16.jpg',
     category: 'Event',
   },
   {
@@ -58,7 +59,7 @@ const stories: Story[] = [
     title: 'Tingkatkan Literasi dan Numerasi Siswa, INSPIRASI dan Pemkab Sumba Barat Daya',
     excerpt:
       'Kolaborasi strategis untuk meningkatkan kualitas literasi dan numerasi siswa di Sumba Barat Daya melalui program BERSAMA.',
-    image: '/activities/5.png',
+    image: '/activities/17.jpg',
     category: 'Program',
   },
   {
@@ -67,7 +68,7 @@ const stories: Story[] = [
     comments: 2,
     title: 'Transformasi Pendidikan di Daerah 3T',
     excerpt: 'Upaya berkelanjutan dalam memeratakan kualitas pendidikan di daerah Terdepan, Terluar, dan Tertinggal.',
-    image: '/activities/1.png',
+    image: '/activities/18.jpg',
     category: 'Liputan',
   },
   {
@@ -76,13 +77,14 @@ const stories: Story[] = [
     comments: 5,
     title: 'Peran Kepala Sekolah dalam Kurikulum Merdeka',
     excerpt: 'Bagaimana kepala sekolah menjadi kunci sukses implementasi Kurikulum Merdeka di satuan pendidikan.',
-    image: '/activities/4.png',
+    image: '/activities/19.jpg',
     category: 'Edukasi',
   },
 ];
 
 export default function CeritaInspirasi() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
   useGSAP(
     () => {
@@ -171,10 +173,13 @@ export default function CeritaInspirasi() {
           {stories.map((story) => (
             <Card
               key={story.id}
-              className="story-card group flex flex-col overflow-hidden border-border/50 bg-card transition-all hover:shadow-lg"
+              className="story-card group flex flex-col overflow-hidden border-border/50 bg-card transition-all hover:shadow-lg cursor-pointer"
+              onClick={() => {
+                navigate('/development');
+              }}
             >
               {/* Image Container */}
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-4/3 overflow-hidden">
                 <img
                   src={story.image}
                   alt={story.title}
@@ -195,7 +200,7 @@ export default function CeritaInspirasi() {
                     <span>{story.comments === 0 ? 'No Comments' : `${story.comments} Comments`}</span>
                   </div>
                 </div>
-                <h3 className="line-clamp-2 text-xl font-bold leading-tight tracking-tight group-hover:text-primary">
+                <h3 className="line-clamp-2 text-xl font-bold leading-tight tracking-tight transition-all group-hover:text-primary">
                   {story.title}
                 </h3>
               </CardHeader>
@@ -205,7 +210,7 @@ export default function CeritaInspirasi() {
               </CardContent>
 
               <CardFooter className="pt-0">
-                <Button variant="link" className="group/btn h-auto p-0 text-primary hover:no-underline">
+                <Button variant="link" className="group/btn h-auto p-0 text-primary hover:no-underline cursor-pointer">
                   Read More
                   <ArrowRight className="ml-2 size-4 transition-transform group-hover/btn:translate-x-1" />
                 </Button>
