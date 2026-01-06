@@ -23,7 +23,6 @@ function Hero() {
   }, [images.length]);
 
   useGSAP(() => {
-    // Text Header
     const container = textHeaderRef.current;
     if (!container) return;
 
