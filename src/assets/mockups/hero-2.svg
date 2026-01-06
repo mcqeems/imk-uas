@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#e2e8f0" />
-  <path d="M0 360 L200 240 L350 310 L520 170 L800 340 V500 H0 Z" fill="#cbd5e1" />
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="44" fill="#475569">
-    Mock Image 2
-  </text>
-</svg>
